@@ -36,12 +36,12 @@ const Footer = () => (
       ))}
     </div>
 
-    <div className="text-dimWhite flex justify-between py-10">
+    <div className="text-dimWhite flex flex-col gap-4 sm:flex-row sm:justify-between py-10">
       <p>Copyright <span className="text-white">&copy;</span> 2022 Hoobank, All Rights Reserved</p>
-      <ul className="flex gap-8">
+      <ul className="flex justify-between sm:gap-8 px-8">
         {socialMedia.map((item) => (
           <li key={item.id}>
-          <a href={item.link}>
+          <a href={item.link} className="hover:text-dimWhite">
           <img src={item.icon} alt="" />
           </a>
           </li>
