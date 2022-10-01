@@ -27,7 +27,7 @@ const App = () => (
     </div>
 
     <div className="bg-primary flex justify-center items-start sm:px-16 px-6">
-      <div className="xl:max-w-[1280px] w-full">
+      <div className="xl:max-w-[1280px] w-full flex flex-col gap-8">
         <Stats /> <Business /> <Billing /> <CardDeal /> <Testimonials />
         <Clients /> <CTA /> <Footer />
       </div>

@@ -8,7 +8,7 @@ const Business = () => {
   const [isActive, setIsActive] = useState(0);
 
   return (
-    <div className="text-white font-poppins flex flex-col sm:flex-row sm:items-center gap-4">
+    <div id="features" className="text-white font-poppins flex flex-col sm:flex-row sm:items-center gap-4">
       <div className="flex flex-col gap-4">
         <h1 className="text-[32px] sm:text-[48px] font-bold">
           You do the business, we’ll handle the money.

@@ -7,11 +7,10 @@ const Testimonials = () => {
   const [isActive, setIsActive] = useState(0);
 
   return (
-    <div>
-      <div className="flex flex-col text-center sm:text-start sm:flex-row items-center mb-4">
-        <h1 className="font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full">
-          What people are <br />
-          saying about us
+    <div className="mt-8">
+      <div className="flex flex-col text-start sm:flex-row items-center mb-4">
+        <h1 className="text-[32px] sm:text-[48px] font-bold font-poppins text-white">
+          What people are saying about us
         </h1>
         <p className="font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]">
           Everything you need to accept card payments and grow your business
