@@ -2,9 +2,9 @@ import React from "react";
 
 const Button = ({ text }) => {
   return (
-    <button className="bg-blue-gradient text-[16px] rounded-lg px-[20px] py-[10px]">
-      {text}
-    </button>
+    <div className="bg-blue-gradient rounded-lg flex items-center justify-center h-[48px] w-[140px] cursor-pointer">
+      <p className="text-primary">{text}</p>
+    </div>
   );
 };
 
