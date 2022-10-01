@@ -1,7 +1,11 @@
-import React from 'react'
+import React from "react";
 
-export const Button = () => {
+const Button = ({ text }) => {
   return (
-    <div>Button</div>
-  )
-}
+    <button className="bg-blue-gradient text-[16px] rounded-lg px-[20px] py-[10px]">
+      {text}
+    </button>
+  );
+};
+
+export default Button;

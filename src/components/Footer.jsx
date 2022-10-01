@@ -4,7 +4,7 @@ import { footerLinks, socialMedia } from "../constants";
 
 const Footer = () => (
   <>
-    <div className="bg-primary flex ss:flex-row flex-col justify-between font-poppins">
+    <div className="bg-primary flex ss:flex-row flex-col justify-between font-poppins mt-8">
       <div className="ss:flex-row flex-col justify-center ss:mb-0 mb-4">
         <img src={logo} alt="" />
         <p className="font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px] mt-4">
